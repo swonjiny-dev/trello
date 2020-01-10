@@ -5,13 +5,13 @@
   "dev": "nodemon app.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "author": "swonjiny",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2",
-    "sequelize-cli": "^5.5.1"
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
     "bcrypt": "^3.0.7",
@@ -20,6 +20,9 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "morgan": "^1.9.1",
-    "mysql2": "^2.1.0"
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.3"
   }
 }
